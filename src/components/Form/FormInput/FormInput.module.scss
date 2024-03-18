@@ -1,0 +1,17 @@
+.input-wrapper {
+    margin-bottom: 1rem;
+}
+
+.input-error {
+    transition: color 0.3s ease-in-out;
+}
+
+.input-error:focus {
+    outline: none;
+    border-width: 2px;
+    border-color: red;
+}
+
+.input-error:hover {
+    border-color: red;
+}
